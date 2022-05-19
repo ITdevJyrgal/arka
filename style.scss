@@ -1,0 +1,76 @@
+@import "reset";
+$b:#F2AE4D;
+#header {
+  padding: 15px 0;
+
+  .header-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__nav {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #011F3A;
+      padding: 0 20px;
+      transition: .4s;
+
+      &:hover {
+        color: yellow;
+      }
+    }
+
+    &__btn {
+      display: flex;
+      align-items: center;
+
+      a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #011F3A;
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+#hero {
+  background:$b;
+  padding-top: 50px;
+
+  .hero-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+      h1 {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        color: #011F3A;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #011F3A;
+        margin-bottom: 50px;
+      }
+
+      button {
+        @include btn()
+      }
+    }
+  }
+}

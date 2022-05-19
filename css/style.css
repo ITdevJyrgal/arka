@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Tapestry&family=Water+Brush&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 15px 0;
+}
+#header .header-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header-general__nav {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 0 20px;
+  transition: 0.4s;
+}
+#header .header-general__nav:hover {
+  color: yellow;
+}
+#header .header-general__btn {
+  display: flex;
+  align-items: center;
+}
+#header .header-general__btn a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 0 20px;
+}
+
+#hero {
+  background: #F2AE4D;
+  padding-top: 50px;
+}
+#hero .hero-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero-general__title h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #011F3A;
+  margin-bottom: 30px;
+}
+#hero .hero-general__title p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #011F3A;
+  margin-bottom: 50px;
+}
+#hero .hero-general__title button {
+  padding: 10px 30px;
+  border: 1px solid #3D5675;
+  background: #3D5675;
+  color: white;
+  font-size: 18px;
+  border-radius: 44px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#hero .hero-general__title button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
